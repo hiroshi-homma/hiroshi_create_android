@@ -8,6 +8,7 @@ import com.squareup.leakcanary.LeakCanary
 
 class AndroidApplication : Application() {
 
+    // test comment
     val appComponent: ApplicationComponent by lazy(mode = LazyThreadSafetyMode.NONE) {
         DaggerApplicationComponent
                 .builder()
